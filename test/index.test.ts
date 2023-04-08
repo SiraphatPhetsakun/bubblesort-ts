@@ -10,7 +10,7 @@ describe('testing merge function', () => {
   })
 
   test('empty conlection two', () => {
-    expect(merge([], [3, 2, 5])).toEqual([2, 3, 5])
+    expect(merge([3, 2, 5], [])).toEqual([2, 3, 5])
   })
 
   test('sort conlection', () => {
