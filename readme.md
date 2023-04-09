@@ -10,7 +10,8 @@ or
 yarn
 ```
 
-run unit test
+
+run unit test:
 
 ```
 npm run test
